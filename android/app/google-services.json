@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "914873746686",
+    "project_id": "blue-51309",
+    "storage_bucket": "blue-51309.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914873746686:android:aef9961577831f97be11af",
+        "android_client_info": {
+          "package_name": "com.blue.client_app_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHWEWPQjZXMWgUMZPA13qmm_IzH37yeZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

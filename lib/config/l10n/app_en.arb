@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "Blue",
+  "@appTitle": {
+    "description": "Application title displayed in system UI"
+  }
+}
