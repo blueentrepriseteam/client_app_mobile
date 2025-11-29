@@ -2,6 +2,5 @@ import 'package:client_app_mobile/router/route_model.dart';
 
 class RouteName {
   const RouteName._();
-
-  static const RouteModel home = RouteModel(name: 'home', path: '/');
+  static const RouteModel signin = RouteModel(name: 'signin', path: '/sign-in');
 }

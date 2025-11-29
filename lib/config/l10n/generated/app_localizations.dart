@@ -103,6 +103,108 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Bleu'**
   String get appTitle;
+
+  /// Titre affiché en haut de la carte de connexion
+  ///
+  /// In fr, this message translates to:
+  /// **'Connexion'**
+  String get signinTitle;
+
+  /// Libellé du champ email
+  ///
+  /// In fr, this message translates to:
+  /// **'Email'**
+  String get signinEmailLabel;
+
+  /// Texte indicatif pour le champ email
+  ///
+  /// In fr, this message translates to:
+  /// **'magatte.dev@gmail.com'**
+  String get signinEmailHint;
+
+  /// Libellé du champ mot de passe
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe'**
+  String get signinPasswordLabel;
+
+  /// Texte indicatif pour le champ mot de passe
+  ///
+  /// In fr, this message translates to:
+  /// **'********'**
+  String get signinPasswordHint;
+
+  /// Libellé de la case à cocher pour se souvenir de l'utilisateur
+  ///
+  /// In fr, this message translates to:
+  /// **'Se souvenir de moi'**
+  String get signinRememberMe;
+
+  /// Texte d'action pour récupérer le mot de passe
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe oublié ?'**
+  String get signinForgotPassword;
+
+  /// Texte du bouton principal
+  ///
+  /// In fr, this message translates to:
+  /// **'Se connecter'**
+  String get signinButton;
+
+  /// Texte affiché entre les séparateurs
+  ///
+  /// In fr, this message translates to:
+  /// **'Ou'**
+  String get signinOrLabel;
+
+  /// Sous-titre avant l'action d'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas encore de compte ?'**
+  String get signinNoAccount;
+
+  /// Texte d'action pour aller à l'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'S\'inscrire'**
+  String get signinSignUp;
+
+  /// Libellé du bouton pour Facebook
+  ///
+  /// In fr, this message translates to:
+  /// **'Continuer avec Facebook'**
+  String get socialContinueWithFacebook;
+
+  /// Libellé du bouton pour Google
+  ///
+  /// In fr, this message translates to:
+  /// **'Continuer avec Google'**
+  String get socialContinueWithGoogle;
+
+  /// Libellé du bouton pour Apple
+  ///
+  /// In fr, this message translates to:
+  /// **'Continuer avec Apple'**
+  String get socialContinueWithApple;
+
+  /// Libellé court pour Facebook
+  ///
+  /// In fr, this message translates to:
+  /// **'Facebook'**
+  String get socialFacebook;
+
+  /// Libellé court pour Google
+  ///
+  /// In fr, this message translates to:
+  /// **'Google'**
+  String get socialGoogle;
+
+  /// Libellé court pour Apple
+  ///
+  /// In fr, this message translates to:
+  /// **'Apple'**
+  String get socialApple;
 }
 
 class _AppLocalizationsDelegate

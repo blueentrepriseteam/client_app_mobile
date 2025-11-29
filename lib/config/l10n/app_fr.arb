@@ -3,5 +3,73 @@
   "appTitle": "Bleu",
   "@appTitle": {
     "description": "Titre de l'application affiché dans l'interface système"
+  },
+  "signinTitle": "Connexion",
+  "@signinTitle": {
+    "description": "Titre affiché en haut de la carte de connexion"
+  },
+  "signinEmailLabel": "Email",
+  "@signinEmailLabel": {
+    "description": "Libellé du champ email"
+  },
+  "signinEmailHint": "magatte.dev@gmail.com",
+  "@signinEmailHint": {
+    "description": "Texte indicatif pour le champ email"
+  },
+  "signinPasswordLabel": "Mot de passe",
+  "@signinPasswordLabel": {
+    "description": "Libellé du champ mot de passe"
+  },
+  "signinPasswordHint": "********",
+  "@signinPasswordHint": {
+    "description": "Texte indicatif pour le champ mot de passe"
+  },
+  "signinRememberMe": "Se souvenir de moi",
+  "@signinRememberMe": {
+    "description": "Libellé de la case à cocher pour se souvenir de l'utilisateur"
+  },
+  "signinForgotPassword": "Mot de passe oublié ?",
+  "@signinForgotPassword": {
+    "description": "Texte d'action pour récupérer le mot de passe"
+  },
+  "signinButton": "Se connecter",
+  "@signinButton": {
+    "description": "Texte du bouton principal"
+  },
+  "signinOrLabel": "Ou",
+  "@signinOrLabel": {
+    "description": "Texte affiché entre les séparateurs"
+  },
+  "signinNoAccount": "Pas encore de compte ?",
+  "@signinNoAccount": {
+    "description": "Sous-titre avant l'action d'inscription"
+  },
+  "signinSignUp": "S'inscrire",
+  "@signinSignUp": {
+    "description": "Texte d'action pour aller à l'inscription"
+  },
+  "socialContinueWithFacebook": "Continuer avec Facebook",
+  "@socialContinueWithFacebook": {
+    "description": "Libellé du bouton pour Facebook"
+  },
+  "socialContinueWithGoogle": "Continuer avec Google",
+  "@socialContinueWithGoogle": {
+    "description": "Libellé du bouton pour Google"
+  },
+  "socialContinueWithApple": "Continuer avec Apple",
+  "@socialContinueWithApple": {
+    "description": "Libellé du bouton pour Apple"
+  },
+  "socialFacebook": "Facebook",
+  "@socialFacebook": {
+    "description": "Libellé court pour Facebook"
+  },
+  "socialGoogle": "Google",
+  "@socialGoogle": {
+    "description": "Libellé court pour Google"
+  },
+  "socialApple": "Apple",
+  "@socialApple": {
+    "description": "Libellé court pour Apple"
   }
 }

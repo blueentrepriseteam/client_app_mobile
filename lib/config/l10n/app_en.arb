@@ -3,5 +3,73 @@
   "appTitle": "Blue",
   "@appTitle": {
     "description": "Application title displayed in system UI"
+  },
+  "signinTitle": "Login",
+  "@signinTitle": {
+    "description": "Title displayed at the top of the sign-in card"
+  },
+  "signinEmailLabel": "Email",
+  "@signinEmailLabel": {
+    "description": "Label for the email input"
+  },
+  "signinEmailHint": "magatte.dev@gmail.com",
+  "@signinEmailHint": {
+    "description": "Placeholder for the email input"
+  },
+  "signinPasswordLabel": "Password",
+  "@signinPasswordLabel": {
+    "description": "Label for the password input"
+  },
+  "signinPasswordHint": "********",
+  "@signinPasswordHint": {
+    "description": "Placeholder for the password input"
+  },
+  "signinRememberMe": "Remember me",
+  "@signinRememberMe": {
+    "description": "Checkbox label to remember the user"
+  },
+  "signinForgotPassword": "Forgot Password?",
+  "@signinForgotPassword": {
+    "description": "Action text to recover the password"
+  },
+  "signinButton": "Log In",
+  "@signinButton": {
+    "description": "Primary action button text"
+  },
+  "signinOrLabel": "Or",
+  "@signinOrLabel": {
+    "description": "Text displayed between divider lines"
+  },
+  "signinNoAccount": "Don't have an account?",
+  "@signinNoAccount": {
+    "description": "Subtitle preceding the sign up action"
+  },
+  "signinSignUp": "Sign Up",
+  "@signinSignUp": {
+    "description": "Action text to go to sign up"
+  },
+  "socialContinueWithFacebook": "Continue with Facebook",
+  "@socialContinueWithFacebook": {
+    "description": "Button label to continue with Facebook"
+  },
+  "socialContinueWithGoogle": "Continue with Google",
+  "@socialContinueWithGoogle": {
+    "description": "Button label to continue with Google"
+  },
+  "socialContinueWithApple": "Continue with Apple",
+  "@socialContinueWithApple": {
+    "description": "Button label to continue with Apple"
+  },
+  "socialFacebook": "Facebook",
+  "@socialFacebook": {
+    "description": "Short label for Facebook"
+  },
+  "socialGoogle": "Google",
+  "@socialGoogle": {
+    "description": "Short label for Google"
+  },
+  "socialApple": "Apple",
+  "@socialApple": {
+    "description": "Short label for Apple"
   }
 }
