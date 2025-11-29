@@ -45,6 +45,16 @@ La configuration se trouve dans `flutter_launcher_icons.yaml`. Pour régénérer
 flutter pub run flutter_launcher_icons -f flutter_launcher_icons.yaml
 ```
 
+## Renommage de l'application
+
+Le nom affiché sur Android/iOS est géré via `package_rename`. La configuration centralisée se trouve dans `package_rename_config.yaml`. Pour appliquer un changement de nom (ex. après mise à jour du fichier), exécuter :
+
+```bash
+dart run package_rename
+```
+
+Les manifests Android/iOS seront mis à jour automatiquement.
+
 ## Navigation (GoRouter)
 
 La navigation repose sur [`go_router`](https://pub.dev/packages/go_router). Le routeur principal est déclaré dans `lib/router/app_router.dart`, les modèles de routes dans `lib/router/route_model.dart` et les noms/chemins partagés dans `lib/router/route_name.dart`. L'ensemble est branché sur `MaterialApp.router` dans `lib/main.dart`.

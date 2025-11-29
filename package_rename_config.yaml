@@ -1,0 +1,5 @@
+package_rename_config:
+  android:
+    app_name: "Blue"
+  ios:
+    app_name: "Blue"
