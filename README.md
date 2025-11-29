@@ -1,4 +1,6 @@
-# Blue App Clien
+# Blue App Client
+
+![Blue Logo](assets/logo/logo_app.png)
 
 Application pour les clients de Blue
 
