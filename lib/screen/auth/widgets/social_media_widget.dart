@@ -20,6 +20,7 @@ class SocialMediaWidget extends StatelessWidget {
     return Container(
       height: context.sizeFromHeight(45),
       decoration: BoxDecoration(
+        color: Colors.transparent,
         border: Border.all(color: Colors.grey.shade200),
         borderRadius: BorderRadius.circular(10),
       ),

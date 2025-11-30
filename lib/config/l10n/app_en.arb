@@ -71,5 +71,45 @@
   "socialApple": "Apple",
   "@socialApple": {
     "description": "Short label for Apple"
+  },
+  "signupTitle": "Create Account",
+  "@signupTitle": {
+    "description": "Title displayed on the sign-up card"
+  },
+  "signupEmailLabel": "Email",
+  "@signupEmailLabel": {
+    "description": "Label for the sign-up email input"
+  },
+  "signupEmailHint": "name@example.com",
+  "@signupEmailHint": {
+    "description": "Placeholder for the sign-up email input"
+  },
+  "signupPasswordLabel": "Password",
+  "@signupPasswordLabel": {
+    "description": "Label for the sign-up password input"
+  },
+  "signupPasswordHint": "********",
+  "@signupPasswordHint": {
+    "description": "Placeholder for the sign-up password input"
+  },
+  "signupConfirmPasswordLabel": "Confirm password",
+  "@signupConfirmPasswordLabel": {
+    "description": "Label for the confirm password input"
+  },
+  "signupConfirmPasswordHint": "********",
+  "@signupConfirmPasswordHint": {
+    "description": "Placeholder for confirm password"
+  },
+  "signupButton": "Sign Up",
+  "@signupButton": {
+    "description": "Primary action button text on the sign-up page"
+  },
+  "signupHaveAccount": "Already have an account?",
+  "@signupHaveAccount": {
+    "description": "Subtitle shown on the sign-up card"
+  },
+  "signupLogin": "Log In",
+  "@signupLogin": {
+    "description": "Action text to return to the login screen"
   }
 }

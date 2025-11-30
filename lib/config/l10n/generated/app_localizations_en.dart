@@ -61,4 +61,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get socialApple => 'Apple';
+
+  @override
+  String get signupTitle => 'Create Account';
+
+  @override
+  String get signupEmailLabel => 'Email';
+
+  @override
+  String get signupEmailHint => 'name@example.com';
+
+  @override
+  String get signupPasswordLabel => 'Password';
+
+  @override
+  String get signupPasswordHint => '********';
+
+  @override
+  String get signupConfirmPasswordLabel => 'Confirm password';
+
+  @override
+  String get signupConfirmPasswordHint => '********';
+
+  @override
+  String get signupButton => 'Sign Up';
+
+  @override
+  String get signupHaveAccount => 'Already have an account?';
+
+  @override
+  String get signupLogin => 'Log In';
 }

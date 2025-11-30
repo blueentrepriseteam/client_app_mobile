@@ -71,5 +71,45 @@
   "socialApple": "Apple",
   "@socialApple": {
     "description": "Libellé court pour Apple"
+  },
+  "signupTitle": "Créer un compte",
+  "@signupTitle": {
+    "description": "Titre affiché sur la carte d'inscription"
+  },
+  "signupEmailLabel": "Email",
+  "@signupEmailLabel": {
+    "description": "Libellé du champ email pour l'inscription"
+  },
+  "signupEmailHint": "nom@example.com",
+  "@signupEmailHint": {
+    "description": "Texte indicatif pour le champ email"
+  },
+  "signupPasswordLabel": "Mot de passe",
+  "@signupPasswordLabel": {
+    "description": "Libellé du champ mot de passe pour l'inscription"
+  },
+  "signupPasswordHint": "********",
+  "@signupPasswordHint": {
+    "description": "Texte indicatif pour le champ mot de passe"
+  },
+  "signupConfirmPasswordLabel": "Confirmer le mot de passe",
+  "@signupConfirmPasswordLabel": {
+    "description": "Libellé du champ de confirmation"
+  },
+  "signupConfirmPasswordHint": "********",
+  "@signupConfirmPasswordHint": {
+    "description": "Texte indicatif pour la confirmation"
+  },
+  "signupButton": "S'inscrire",
+  "@signupButton": {
+    "description": "Texte du bouton principal sur la page d'inscription"
+  },
+  "signupHaveAccount": "Déjà un compte ?",
+  "@signupHaveAccount": {
+    "description": "Sous-titre affiché sur la carte d'inscription"
+  },
+  "signupLogin": "Se connecter",
+  "@signupLogin": {
+    "description": "Texte d'action pour revenir à la connexion"
   }
 }

@@ -1,11 +1,10 @@
-import 'package:client_app_mobile/router/route_name.dart';
 import 'package:flutter/material.dart';
 import 'package:client_app_mobile/core/extension/build_context_extension.dart';
-import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SignupWidget extends StatelessWidget {
-  const SignupWidget({super.key});
+class SigninWidget extends StatelessWidget {
+  const SigninWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     final l10n = context.l10n;
@@ -13,7 +12,7 @@ class SignupWidget extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          l10n.signinNoAccount,
+          l10n.signupHaveAccount,
           style: GoogleFonts.inter(
             textStyle: context.theme.textTheme.bodyLarge!.copyWith(
               fontWeight: FontWeight.normal,
@@ -22,18 +21,13 @@ class SignupWidget extends StatelessWidget {
           ),
         ),
         context.hSpace(5),
-        GestureDetector(
-          onTap: () {
-            context.pushNamed(RouteName.signup.name);
-          },
-          child: Text(
-            l10n.signinSignUp,
-            style: GoogleFonts.inter(
-              textStyle: context.theme.textTheme.bodyLarge!.copyWith(
-                fontWeight: FontWeight.normal,
-                color: Colors.blue.shade800,
-                fontSize: context.sizeFromHeight(12),
-              ),
+        Text(
+          l10n.signupLogin,
+          style: GoogleFonts.inter(
+            textStyle: context.theme.textTheme.bodyLarge!.copyWith(
+              fontWeight: FontWeight.normal,
+              color: Colors.blue.shade800,
+              fontSize: context.sizeFromHeight(12),
             ),
           ),
         ),

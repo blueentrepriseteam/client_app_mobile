@@ -1,6 +1,7 @@
 import 'package:client_app_mobile/config/log/logger.dart';
 import 'package:client_app_mobile/router/route_name.dart';
 import 'package:client_app_mobile/screen/auth/pages/signin_page.dart';
+import 'package:client_app_mobile/screen/auth/pages/signup_page.dart';
 import 'package:go_router/go_router.dart';
 
 final GoRouter appRouter = GoRouter(
@@ -12,6 +13,14 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) {
         appLogger.d('Navigating to ${state.matchedLocation}');
         return const SigninPage();
+      },
+    ),
+    GoRoute(
+      path: RouteName.signup.path,
+      name: RouteName.signup.name,
+      builder: (context, state) {
+        appLogger.d('Navigating to ${state.matchedLocation}');
+        return const SignupPage();
       },
     ),
   ],

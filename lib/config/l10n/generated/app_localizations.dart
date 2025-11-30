@@ -205,6 +205,66 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Apple'**
   String get socialApple;
+
+  /// Titre affiché sur la carte d'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'Créer un compte'**
+  String get signupTitle;
+
+  /// Libellé du champ email pour l'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'Email'**
+  String get signupEmailLabel;
+
+  /// Texte indicatif pour le champ email
+  ///
+  /// In fr, this message translates to:
+  /// **'nom@example.com'**
+  String get signupEmailHint;
+
+  /// Libellé du champ mot de passe pour l'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe'**
+  String get signupPasswordLabel;
+
+  /// Texte indicatif pour le champ mot de passe
+  ///
+  /// In fr, this message translates to:
+  /// **'********'**
+  String get signupPasswordHint;
+
+  /// Libellé du champ de confirmation
+  ///
+  /// In fr, this message translates to:
+  /// **'Confirmer le mot de passe'**
+  String get signupConfirmPasswordLabel;
+
+  /// Texte indicatif pour la confirmation
+  ///
+  /// In fr, this message translates to:
+  /// **'********'**
+  String get signupConfirmPasswordHint;
+
+  /// Texte du bouton principal sur la page d'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'S\'inscrire'**
+  String get signupButton;
+
+  /// Sous-titre affiché sur la carte d'inscription
+  ///
+  /// In fr, this message translates to:
+  /// **'Déjà un compte ?'**
+  String get signupHaveAccount;
+
+  /// Texte d'action pour revenir à la connexion
+  ///
+  /// In fr, this message translates to:
+  /// **'Se connecter'**
+  String get signupLogin;
 }
 
 class _AppLocalizationsDelegate
